@@ -30,7 +30,7 @@ To iteratively improve a random variable assignment by introducing small changes
 The plot of fitness (satisfied clauses) over iterations shows how the algorithm progresses in finding better solutions.
 Simulated annealing may find near-optimal solutions, especially if the cooling rate and initial temperature are properly tuned.
 
-![Untitled](https://github.com/user-attachments/assets/1747b662-a7a4-428c-974d-60507c5ebc3c)
+<img src ="https://github.com/user-attachments/assets/1747b662-a7a4-428c-974d-60507c5ebc3c" width="400">
 
 ## 2. Genetic Algorithm
 
@@ -52,7 +52,7 @@ A plot of fitness (satisfied clauses) over generations shows the evolution of so
 Over time, the genetic algorithm improves the fitness of solutions, often converging on an optimal or near-optimal solution.
 Genetic algorithms tend to perform well when population size, mutation rate, and crossover methods are properly chosen.
 
-![Untitled](https://github.com/user-attachments/assets/2a3e22d5-ed44-46de-a825-06048557f7ef)
+<img src ="https://github.com/user-attachments/assets/2a3e22d5-ed44-46de-a825-06048557f7ef" width="400">
 
 ## Conclusion 
 
