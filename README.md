@@ -15,7 +15,7 @@ These algorithms are tested using CNF files formatted according to the DIMACS st
 
 ### Objective:
 
-    To iteratively improve a random variable assignment by introducing small changes (random flips) and using a probabilistic acceptance mechanism to escape local optima.
+To iteratively improve a random variable assignment by introducing small changes (random flips) and using a probabilistic acceptance mechanism to escape local optima.
 
 ### Steps:
 
@@ -27,8 +27,8 @@ These algorithms are tested using CNF files formatted according to the DIMACS st
 
 ### Results:
 
-    The plot of fitness (satisfied clauses) over iterations shows how the algorithm progresses in finding better solutions.
-    Simulated annealing may find near-optimal solutions, especially if the cooling rate and initial temperature are properly tuned.
+The plot of fitness (satisfied clauses) over iterations shows how the algorithm progresses in finding better solutions.
+Simulated annealing may find near-optimal solutions, especially if the cooling rate and initial temperature are properly tuned.
 
 ![Untitled](https://github.com/user-attachments/assets/1747b662-a7a4-428c-974d-60507c5ebc3c)
 
@@ -36,21 +36,21 @@ These algorithms are tested using CNF files formatted according to the DIMACS st
 
 ### Objective:
 
-    To simulate the process of natural selection by evolving a population of solutions over several generations, using crossover and mutation operations.
+To simulate the process of natural selection by evolving a population of solutions over several generations, using crossover and mutation operations.
 
 ### Steps:
 
-    A population of random solutions is initialized.
-    Each solution’s fitness is evaluated based on how many clauses it satisfies.
-    The top-performing solutions (parents) are selected, and crossover is used to create offspring solutions by combining parts of the parents.
-    Mutation is applied to the offspring to introduce small random changes.
-    The best solution over all generations is returned as the result.
+    1. A population of random solutions is initialized.
+    2. Each solution’s fitness is evaluated based on how many clauses it satisfies.
+    3. The top-performing solutions (parents) are selected, and crossover is used to create offspring solutions by combining parts of the parents.
+    4. Mutation is applied to the offspring to introduce small random changes.
+    5. The best solution over all generations is returned as the result.
 
 ### Results:
 
-    A plot of fitness (satisfied clauses) over generations shows the evolution of solutions.
-    Over time, the genetic algorithm improves the fitness of solutions, often converging on an optimal or near-optimal solution.
-    Genetic algorithms tend to perform well when population size, mutation rate, and crossover methods are properly chosen.
+A plot of fitness (satisfied clauses) over generations shows the evolution of solutions.
+Over time, the genetic algorithm improves the fitness of solutions, often converging on an optimal or near-optimal solution.
+Genetic algorithms tend to perform well when population size, mutation rate, and crossover methods are properly chosen.
 
 ![Untitled](https://github.com/user-attachments/assets/2a3e22d5-ed44-46de-a825-06048557f7ef)
 
@@ -58,11 +58,11 @@ These algorithms are tested using CNF files formatted according to the DIMACS st
 
 Both algorithms aim to maximize the number of satisfied clauses in the SAT problem, but they approach the task differently:
 
-    Simulated Annealing explores solutions one at a time, accepting worse solutions with a probability that decreases as the temperature cools, allowing the algorithm to escape local optima.
-    Genetic Algorithm works with a population of solutions, applying crossover and mutation to evolve better solutions over generations.
+* Simulated Annealing explores solutions one at a time, accepting worse solutions with a probability that decreases as the temperature cools, allowing the algorithm to escape local optima.
+* Genetic Algorithm works with a population of solutions, applying crossover and mutation to evolve better solutions over generations.
 
 Common Insights:
 
-    Both algorithms improve the quality of solutions over time, though convergence rates may differ.
-    Simulated Annealing is simpler and faster in some cases but might not always find global optima.
-    Genetic Algorithm is more robust in exploring the search space and tends to find better solutions, but it can be computationally expensive for large populations or many generations.
+Both algorithms improve the quality of solutions over time, though convergence rates may differ.
+* Simulated Annealing is simpler and faster in some cases but might not always find global optima.
+* Genetic Algorithm is more robust in exploring the search space and tends to find better solutions, but it can be computationally expensive for large populations or many generations.
