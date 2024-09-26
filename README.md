@@ -6,8 +6,8 @@ This project implements two optimization algorithms, Simulated Annealing and Gen
 
 The project consists of two parts:
 
-    Simulated Annealing (simulatedannealing.py)
-    Genetic Algorithm (genetics.py)
+    Simulated Annealing (sat-simulatedannealing.py)
+    Genetic Algorithm (sat-genetics.py)
 
 These algorithms are tested using CNF files formatted according to the DIMACS standard.
 
